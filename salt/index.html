@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- navbar -->
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary my">
+                <a class="navbar-brand" href="#">
+                    <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="Restaurant Logo" width="140px" height="60px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Branches</a>
+                        </li>
+                    </ul>
+                    <a href=""> 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M286.79-70Q257-70 236-91.21t-21-51Q215-172 236.21-193t51-21Q317-214 338-192.79t21 51Q359-112 337.79-91t-51 21Zm400 0Q657-70 636-91.21t-21-51Q615-172 636.21-193t51-21Q717-214 738-192.79t21 51Q759-112 737.79-91t-51 21ZM212-812h560.07q36.18 0 55.06 32 18.87 32 .87 65L710-501q-13 21-32.51 34.5-19.51 13.5-44.63 13.5H337l-49 93h482v82H277q-50 0-71.5-34t1.5-74l61-112-146-311H40v-82h135l37 79Z"/></svg>
+                         </a>
+                    <button class="btn btn-outline-success botton" type="submit">Online Order
+
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m480-334 146-146-146-146-42 42 74 74H330v60h182l-74 74 42 42Zm0 254q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-156t86-127Q252-817 325-848.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82-31.5 155T763-197.5q-54 54.5-127 86T480-80Zm0-60q142 0 241-99.5T820-480q0-142-99-241t-241-99q-141 0-240.5 99T140-480q0 141 99.5 240.5T480-140Zm0-340Z"/></svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+      </div>
+    </div>
+<!-- slider -->
+    <div class="container-fluid">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://static.tossdown.com/images/9386028a-054c-47eb-a9a0-937d033c290f.webp" class="d-block w-100" alt="Restaurant Slider Image">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+    <br>
+    <h1>  Choose by Category</h1>
+    <br>
+    <!-- card -->
+     <!-- <div class="card-group">
+  <div class="card">
+    <img src="https://static.tossdown.com/images/174d23fc-3897-43ed-a20b-15c78613d2ec.webp" class="card-img-top" alt="..."height="700px">
+    <div class="card-body card1">
+<br><br>
+         <h5 class="card-title"> <a href="">soups</a></h5>
+          
+      <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       -->
+      
+<!--       
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>  -->
+<!-- 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://static.tossdown.com/images/5040fa98-dfb9-46ea-88ea-295ca3c566cc.webp" class="card-img-top" alt="..." height="700px">
+    <div class="card-body card1">
+        <br><br>
+      <h5 class="card-title">
+        <a href="">Sandwiches</a>
+       </h5>
+
+      <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+    
+    <!-- </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body card1">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div> -->
+  <!-- </div>
+  
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div> -->
+<!--   
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div> --> 
+<div class="row">
+<div class="card1">
+  
+    <img src="https://static.tossdown.com/images/174d23fc-3897-43ed-a20b-15c78613d2ec.webp" class="card-img-top" alt="..."height="380px" width="10px">
+   <a href="">soup</a>
+
+</div>
+  <div class="card1">
+    <img src="https://static.tossdown.com/images/5040fa98-dfb9-46ea-88ea-295ca3c566cc.webp" class="card-img-top" alt="..."height="380px" width="10px">
+   <a href="">Sendwiches</a>
+  </div>
+  
+  <div class="card1">
+    <img src="https://static.tossdown.com/images/f0c37e1e-408c-4a4d-b47f-71727066d8f0.webp" class="card-img-top" alt="..."height="380px" width="10px">
+   <a href="">Our  Famous Burgers</a>
+  </div>
+
+<div class="card1">
+    <img src="https://static.tossdown.com/images/0e588fff-bf91-4c17-ad67-342add033c06.webp" class="card-img-top" alt="..."height="380px" width="10px">
+   <a href="">Giant Burgers</a>
+  </div>
+  <div class="card1">
+    <img src="https://static.tossdown.com/images/ae2be7e7-974b-4ca2-865e-440c2237783e.webp" class="card-img-top" alt="..."height="380px" width="10px">
+   <a href="">Chicken Conttinental</a>
+  </div>
+
+   </div>
+<!-- hero -->
+ <!-- hero section -->
+<br
+><br>
+ <!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="p-5 text-center bg-image" style="
+            background-image: url('https://static.tossdown.com/images/9386028a-054c-47eb-a9a0-937d033c290f.webp');
+            height: 400px;
+            ">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Welcome to Our Restaurant</h1>
+                    <h4 class="mb-3">The Best Food in Town</h4>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+                        >Order Now</a
+                    >
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <section class="hero">
+    <div class="hero-container">
+      <!-- Left side image -->
+      <div class="hero-image">
+        <img src="https://static.tossdown.com/images/308fb0ff-0dfd-486f-966c-d86b7b6199a8.webp" alt="Food Plate">
+      </div>
+
+      <!-- Right side content -->
+      <div class="hero-content">
+        <h4 class="subtitle">SALT N PEPPER RESTAURANT</h4>
+        <h1 class="title">Discover The Taste!</h1>
+        <p class="desc">
+          The Salt’n Pepper Restaurants are an example of gracious dinning,
+          outstanding service, extraordinary classic and contemporary cuisine.
+          The restaurants have become the ultimate dinning destinations in Lahore.
+        </p>
+        <a href="#" class="btn">learn More
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="m480-302 178-178-178-178-74 74 51 51H307v106h150l-51 51 74 74Zm0 254q-89.64 0-168.48-34.02-78.84-34.02-137.16-92.34-58.32-58.32-92.34-137.16T48-480q0-89.9 34.08-168.96 34.08-79.07 92.5-137.55Q233-845 311.74-878.5 390.48-912 480-912q89.89 0 168.94 33.5Q728-845 786.5-786.5t92 137.58q33.5 79.09 33.5 169 0 89.92-33.5 168.42Q845-233 786.51-174.58q-58.48 58.42-137.55 92.5Q569.9-48 480-48Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <h1>Our Deals</h1>
+  <br><br>
+  <!-- cards -->
+   <div class="card-group gup">
+  <div class="card card2">
+    <img src="https://static.tossdown.com/images/7963085a-4c91-4fe6-b899-70266e464656.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">superoir</h5>
+      <p class="card-text">Chicken Fillet (3 Pcs), Chicken Sandwich Cold (2 Pcs), French Fries</p>
+      <h4 >Rs 1,650.00</h4>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <a href="" class="mn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+
+      </a>
+    </div>
+  </div>
+  <div class="card card2">
+    <img src="https://static.tossdown.com/images/72564eae-6254-4ec3-847d-976828221019.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Deluxe</h5>
+      <p class="card-text">Fried Chicken Sandwich, Chicken Nuggets (4 Pcs), Chicken Apple &.</p>
+      <h4>Rs 2,050.00</h4>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card card2">
+    <img src="https://static.tossdown.com/images/0ef7127c-188b-4448-9781-1027ab3a320d.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">VIP</h5>
+      <p class="card-text">Chicken Shashlik (1/2 Portion), Chicken Sandwich Cold (2 Pcs),.</p>
+    <h4>Rs 2,190.00</h4>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- card -->
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card card2">
+      <img src="https://static.tossdown.com/images/d36519b4-3657-4df2-9aa0-0c8e21ad8445.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pakistani Deluxe</h5>
+        <p class="card-text">oneless Chicken Handi (Portion), Chicken Seekh Kabab (2 Pcs).</p>
+        <h4>Rs 2,150.00</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card2">
+      <img src="https://static.tossdown.com/images/a8360459-10c2-403a-873c-3e0e136a805b.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Pakistani B.B.Q</h3>
+        <p class="card-text">Chicken Tikka (1 Piece), Chicken Seekh Kabab (3 Pcs), Mint Raita,</p>
+        <h4>Rs 2,290.00</h4>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card card2">
+      <img src="https://static.tossdown.com/images/22d2b199-5834-4e55-82ad-b7a9d6b5c799.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pakistani VIP</h5>
+        <p class="card-text">Boneless Chicken Handi (Portion), Boneless Chicken Boti (4 Pcs),.</p>
+        <h4>Rs 2,450.00
+
+</h4>
+      </div>
+    </div>
+  <!-- </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div> -->
+  </div>
+</div>
+<!-- 
+ -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h4 class="subtitle">Menu Of The Week</h4>
+      <h1 class="title">Something Special
+For You To Try This Month!!</h1>
+      <p class="desc">
+        Chicken Chilli Dry (1/2 Portion), Chicken Drumstick (2 Pcs), Egg Fried Rice, Chicken Chow-mein, Dessert
+      </p>
+      <h4>
+        Chinese
+        <br>
+Rs.2170 Plus Tax
+      </h4>
+      <a href="#" class="btn">Order Online
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#EA3323">
+          <path
+            d="m480-302 178-178-178-178-74 74 51 51H307v106h150l-51 51 74 74Zm0 254q-89.64 0-168.48-34.02-78.84-34.02-137.16-92.34-58.32-58.32-92.34-137.16T48-480q0-89.9 34.08-168.96 34.08-79.07 92.5-137.55Q233-845 311.74-878.5 390.48-912 480-912q89.89 0 168.94 33.5Q728-845 786.5-786.5t92 137.58q33.5 79.09 33.5 169 0 89.92-33.5 168.42Q845-233 786.51-174.58q-58.48 58.42-137.55 92.5Q569.9-48 480-48Z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://static.tossdown.com/images/fed773b0-6d54-491d-a2b1-fc291f1aa602.webp" alt="Food Plate">
+    </div>
+  </div>
+</section>
+<!-- footer -->
+ <br><br><br>
+ 
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted foot">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom foot">
+    <!-- Left -->
+    <!-- <div class="me-5 d-none d-lg-block ">
+      <span>Get connected with us on social networks:</span>
+    </div> -->
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class=>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="foot">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i><img  src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="" width="100px " height="80px">
+          </h6>
+          <p>
+            The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.
+
+Terms & conditions <a href="">Privacy policy</a> 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 foot">
+          <!-- Links -->
+          <B class="text-uppercase fw-bold mb-4">
+            site links
+          </B>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Deals</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Photos</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">Publications</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">Get a Frenchies</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">Facebook</a>
+          </p>
+           <p>
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 foot">
+          <!-- Links -->
+          <B class="text-uppercase fw-bold mb-4">
+            contact us
+          </B>
+          <br>
+          <p>Head Office addres</p>
+          <p>
+            Foodconsults (Pvt) Ltd <br><br>
+
+23-Usman Block, New GardenTown, Lahore, Pakistan
+          </p>
+          <B>Head Office Nmber</B>
+          <br>
+          
+          +92 42 358 509 31
+          <br>
+          
+          +92 42 358 509 31
+          <B> Email addres</B>
+          <br>
+          <p>snpfood@brain.net.pk </p>
+          <p>
+            <B>Free dilvery Number</B>
+          <br>
+          
+          +92 42 358 509 31
+          <br>
+          
+          +92 42 358 509 31
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 foot">
+          <!-- Links -->
+          <B class="text-uppercase fw-bold mb-4">follow us </B>
+<div class="social-icons mb-4">
+  <a href="https://www.facebook.com/Foodconsults" class="btn btn-floating m-1" style="background-color: red;" role="button"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+    <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+</svg>
+    <i class="fab fa-facebook-f"></i
+  ></a>
+  <a href="#" class="btn btn-floating m-1" style="background-color: red;" role="button"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+<path d="M 34.21875 5.46875 C 28.238281 5.46875 23.375 10.332031 23.375 16.3125 C 23.375 16.671875 23.464844 17.023438 23.5 17.375 C 16.105469 16.667969 9.566406 13.105469 5.125 7.65625 C 4.917969 7.394531 4.597656 7.253906 4.261719 7.277344 C 3.929688 7.300781 3.632813 7.492188 3.46875 7.78125 C 2.535156 9.386719 2 11.234375 2 13.21875 C 2 15.621094 2.859375 17.820313 4.1875 19.625 C 3.929688 19.511719 3.648438 19.449219 3.40625 19.3125 C 3.097656 19.148438 2.726563 19.15625 2.425781 19.335938 C 2.125 19.515625 1.941406 19.839844 1.9375 20.1875 L 1.9375 20.3125 C 1.9375 23.996094 3.84375 27.195313 6.65625 29.15625 C 6.625 29.152344 6.59375 29.164063 6.5625 29.15625 C 6.21875 29.097656 5.871094 29.21875 5.640625 29.480469 C 5.410156 29.742188 5.335938 30.105469 5.4375 30.4375 C 6.554688 33.910156 9.40625 36.5625 12.9375 37.53125 C 10.125 39.203125 6.863281 40.1875 3.34375 40.1875 C 2.582031 40.1875 1.851563 40.148438 1.125 40.0625 C 0.65625 40 0.207031 40.273438 0.0507813 40.71875 C -0.109375 41.164063 0.0664063 41.660156 0.46875 41.90625 C 4.980469 44.800781 10.335938 46.5 16.09375 46.5 C 25.425781 46.5 32.746094 42.601563 37.65625 37.03125 C 42.566406 31.460938 45.125 24.226563 45.125 17.46875 C 45.125 17.183594 45.101563 16.90625 45.09375 16.625 C 46.925781 15.222656 48.5625 13.578125 49.84375 11.65625 C 50.097656 11.285156 50.070313 10.789063 49.777344 10.445313 C 49.488281 10.101563 49 9.996094 48.59375 10.1875 C 48.078125 10.417969 47.476563 10.441406 46.9375 10.625 C 47.648438 9.675781 48.257813 8.652344 48.625 7.5 C 48.75 7.105469 48.613281 6.671875 48.289063 6.414063 C 47.964844 6.160156 47.511719 6.128906 47.15625 6.34375 C 45.449219 7.355469 43.558594 8.066406 41.5625 8.5 C 39.625 6.6875 37.074219 5.46875 34.21875 5.46875 Z M 34.21875 7.46875 C 36.769531 7.46875 39.074219 8.558594 40.6875 10.28125 C 40.929688 10.53125 41.285156 10.636719 41.625 10.5625 C 42.929688 10.304688 44.167969 9.925781 45.375 9.4375 C 44.679688 10.375 43.820313 11.175781 42.8125 11.78125 C 42.355469 12.003906 42.140625 12.53125 42.308594 13.011719 C 42.472656 13.488281 42.972656 13.765625 43.46875 13.65625 C 44.46875 13.535156 45.359375 13.128906 46.3125 12.875 C 45.457031 13.800781 44.519531 14.636719 43.5 15.375 C 43.222656 15.578125 43.070313 15.90625 43.09375 16.25 C 43.109375 16.65625 43.125 17.058594 43.125 17.46875 C 43.125 23.71875 40.726563 30.503906 36.15625 35.6875 C 31.585938 40.871094 24.875 44.5 16.09375 44.5 C 12.105469 44.5 8.339844 43.617188 4.9375 42.0625 C 9.15625 41.738281 13.046875 40.246094 16.1875 37.78125 C 16.515625 37.519531 16.644531 37.082031 16.511719 36.683594 C 16.378906 36.285156 16.011719 36.011719 15.59375 36 C 12.296875 35.941406 9.535156 34.023438 8.0625 31.3125 C 8.117188 31.3125 8.164063 31.3125 8.21875 31.3125 C 9.207031 31.3125 10.183594 31.1875 11.09375 30.9375 C 11.53125 30.808594 11.832031 30.402344 11.816406 29.945313 C 11.800781 29.488281 11.476563 29.097656 11.03125 29 C 7.472656 28.28125 4.804688 25.382813 4.1875 21.78125 C 5.195313 22.128906 6.226563 22.402344 7.34375 22.4375 C 7.800781 22.464844 8.214844 22.179688 8.355469 21.746094 C 8.496094 21.3125 8.324219 20.835938 7.9375 20.59375 C 5.5625 19.003906 4 16.296875 4 13.21875 C 4 12.078125 4.296875 11.03125 4.6875 10.03125 C 9.6875 15.519531 16.6875 19.164063 24.59375 19.5625 C 24.90625 19.578125 25.210938 19.449219 25.414063 19.210938 C 25.617188 18.96875 25.695313 18.648438 25.625 18.34375 C 25.472656 17.695313 25.375 17.007813 25.375 16.3125 C 25.375 11.414063 29.320313 7.46875 34.21875 7.46875 Z"></path>
+</svg>
+    <i class="fab fa-twitter"></i
+  ></a>
+  <a href="#" class="btn btn-floating m-1" style="background-color: red;" role="button"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+<path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+</svg><i class="fab fa-instagram"></i
+  ></a>
+</div>
+
+<div class="app-links">
+  <a href="">
+    <img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp" alt="Download on the App Store" class="img-fluid mb-2">
+  </a>
+  <a href="#">
+    <img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp" alt="Get it on Google Play" class="img-fluid">
+  </a>
+</div>
+          
+          <!-- <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div> -->
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4  style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  </body>
+</html>
